@@ -1,10 +1,9 @@
 include_directories("../../../common")
 include_directories("../../")
-include_directories("falcon_behavior_engine")
 
 add_executable(sinsp-example
-	falcon_behavior_engine/util.cpp
-	falcon_behavior_engine/main.cpp
+	test.cpp
+	util.cpp
 )
 
 target_link_libraries(sinsp-example
